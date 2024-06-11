@@ -1,0 +1,41 @@
+Bike Sales Data Analysis
+Overview
+This project involves the analysis of bike sales data to uncover insights and trends that can inform business strategies. The dataset includes information on sales volume, customer demographics, bike categories, and pricing, among other variables.
+Objectives
+•	Identify Sales Trends: Determine patterns in bike sales over time.
+•	Customer Segmentation: Analyze customer demographics to identify key segments.
+•	Product Performance: Evaluate the performance of different bike categories and models.
+•	Pricing Analysis: Assess the impact of pricing on sales volume.
+Data Summary
+The dataset consists of the following key columns:
+•	Date: Date of sale
+•	Customer ID: Unique identifier for each customer
+•	Age: Age of the customer
+•	Gender: Gender of the customer
+•	Location: Geographic location of the sale
+•	Bike Category: Category of the bike sold (e.g., Road, Mountain, Hybrid)
+•	Bike Model: Specific model of the bike
+•	Price: Sale price of the bike
+•	Quantity: Number of units sold
+Key Findings
+1.	Sales Trends:
+o	Sales peak during summer months, indicating a seasonal trend.
+o	Year-over-year growth shows a consistent increase in sales volume.
+2.	Customer Segmentation:
+o	Majority of customers fall within the 25-40 age range.
+o	A higher proportion of male customers compared to female customers.
+3.	Product Performance:
+o	Road bikes are the top-selling category, followed by mountain bikes.
+o	Certain models within each category consistently outperform others.
+4.	Pricing Analysis:
+o	Mid-range priced bikes have the highest sales volume, suggesting a preference for value-for-money products.
+o	Discounted pricing during off-season boosts sales.
+Visualizations
+The project includes various visualizations to support the analysis:
+•	Time series plots showing monthly sales trends.
+•	Bar charts comparing sales across different customer demographics.
+•	Heat maps depicting geographic distribution of sales.
+•	Scatter plots and box plots for pricing analysis.
+Conclusion
+The analysis provides valuable insights into bike sales dynamics, highlighting key areas for potential growth and optimization. Understanding customer demographics and product performance can guide marketing and inventory decisions, while pricing strategies can be refined based on sales trends.
+
