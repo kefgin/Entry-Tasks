@@ -1,4 +1,4 @@
--- Create the Count12 table if not exists
+-- Create the Count1 table if not exists
 CREATE TABLE IF NOT EXISTS Count1 (
     CountyID INT PRIMARY KEY,
     CountyName VARCHAR(255)
@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS Count1 (
 -- Insert some sample data
 INSERT INTO Count1 (CountyID, CountyName) VALUES (1, 'County A'), (2, 'County B');
 
--- Create the Persons12 table if not exists
+-- Create the Persons1 table if not exists
 CREATE TABLE IF NOT EXISTS Persons1 (
     PersonID INT PRIMARY KEY,
     Name VARCHAR(255),
@@ -45,7 +45,7 @@ FROM Persons1 p
 INNER JOIN Count1 c ON p.CountyID = c.CountyID;
 
 
--- Perform LEFT JOIN
+-- LEFT JOIN
 SELECT p.PersonID, p.Name, p.DOB, c.CountyName
 FROM Persons1 p
 LEFT JOIN Count1 c ON p.CountyID = c.CountyID;
@@ -53,7 +53,7 @@ LEFT JOIN Count1 c ON p.CountyID = c.CountyID;
 Select* From Persons1;
 Select* From Count1;
 
--- Perform RIGHT JOIN
+-- RIGHT JOIN
 
 SELECT p.PersonID, p.Name, p.DOB, c.CountyName
 FROM Persons1 p
